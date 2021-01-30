@@ -19,6 +19,11 @@ public class MathExample {
         for(double log : logNumbers){
             System.out.println(log);
         }
+        System.out.println("Enter the number A: ");
+        int numberA =scanner.nextInt();
+        System.out.println("Enter the number B: ");
+        int numberB =scanner.nextInt();
 
+        numberRepo.minMaxAB(numberA,numberB);
     }
 }
