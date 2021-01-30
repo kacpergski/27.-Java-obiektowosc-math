@@ -37,5 +37,18 @@ public class NumberRepo {
         }
      return temp;
     }
+
+    void minMaxAB(double numberA, double numberB){
+         double randomA = Math.random() * (numberA - numberB +1) + numberB;
+         double randomB = Math.random() * (numberA - numberB +1) + numberB;
+
+         double logAB = Math.log(randomA)*randomB;
+         double cosA = Math.cos(randomA);
+         double tgB = Math.tan(randomB);
+
+        System.out.println(logAB);
+        System.out.println(cosA);
+        System.out.println(tgB);
+    }
 }
 
